@@ -8,13 +8,13 @@
 
 
 // POR REFERENCIA
-// const arr1 = [0, 1, 2];
-// console.log('arr1', arr1);
-// const arr2 = arr1;
-// console.log('arr2', arr2);
-// arr2.push(3);
-// console.log('arr2', arr2);
-// console.log('arr1', arr1);
+const arr1 = [0, 1, 2];
+console.log('arr1', arr1);
+const arr2 = arr1;
+console.log('arr2', arr2);
+arr2.push(3);
+console.log('arr2', arr2);
+console.log('arr1', arr1);
 
 
 // POR COPIA, sólo copia los primitivos

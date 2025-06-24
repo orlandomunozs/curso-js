@@ -1,11 +1,13 @@
 const arreglo = [0, 5, 8, 9];
 
 
-// arreglo.forEach(function (value, index) {
-//     // console.log('index', index);
-//     // console.log('value', value);
-//     arreglo[index] = value + 1;
-// });
+arreglo.forEach(function (value, index) {
+    // console.log('index', index);
+    // console.log('value', value);
+    arreglo[index] = value + 1;
+});
+
+arreglo.forEach((value, index) => arreglo[index] = value + 1);
 // console.log(arreglo);
 
 
